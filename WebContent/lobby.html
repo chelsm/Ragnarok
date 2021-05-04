@@ -1,0 +1,101 @@
+<!DOCTYPE html >
+<html>
+	<head>
+        <meta charset ="UTF-8" >
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> Ragnarok </title>	
+        <link rel = "normalize" href = "normalize.css">
+        <link rel = "stylesheet" href = "style.css">
+        <!-- <link rel = "stylesheet" href = "css/lobby.css"> -->
+	</head>
+
+	<body >
+        <header >
+            <div class="logo-img">
+                <img src="images/viking.png" alt="Viking Logo">
+              </div>
+            <div class="background-image-container lobby-back-game">
+
+            
+        </header>
+
+        <divc class="container">
+
+            <div class="chat-box">
+                <div id="name-box">Chat </div>
+                <div id="holder">
+                    
+                    <textarea class="chat" id="history" style="overflow-y:scroll" readonly>
+                      
+                    </textarea>
+
+                    <form id="messageForm">
+                        <input type="text" id="txtMessage" placeholder="Type..."/>
+                        <button type="submit"  id="btnSend" onclick="hidel()"> Send </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class ="players-box">
+                <h1 id="name-box"> Players </h1>
+                <div id="player-grid">
+                    <img class="player-picture" src="images/character/brownVikings.jpg"/>
+                    <img class="player-picture" src="images/character/brownVikings.jpg"/>
+                    <img class="player-picture" src="images/character/brownVikings.jpg"/>
+                    <img class="player-picture" src="images/character/brownVikings.jpg"/>
+                    <img class="player-picture" src="images/character/brownVikings.jpg"/>
+                    <img class="player-picture" src="images/character/brownVikings.jpg"/>
+                    <img class="player-picture" src="images/character/brownVikings.jpg"/>
+                    <img class="player-picture" src="images/character/brownVikings.jpg"/>
+                    <img class="player-picture" src="images/character/brownVikings.jpg"/>
+                    <img class="player-picture" src="images/character/brownVikings.jpg"/>
+                </div>
+            
+            </div>
+
+            <div class="options-link-box">
+                <h1 id="name-box"> Options </h1>
+
+                <ul class="option-grid">
+                    <li class="flex-item"><img class="toad-picture"src="images/character/toad.png" ></li>
+                    <li class="flex-item"><img class="toad-picture"src="images/character/toad.png" ></li>
+                    <li class="flex-item"><img class="toad-picture"src="images/character/toad.png" ></li>
+                    <li class="flex-item"><img class="toad-picture"src="images/character/toad.png" ></li>
+                    <li class="flex-item"><img class="toad-picture"src="images/character/toad.png" ></li>
+
+                    <li class="flex-item"><img class="toad-picture"src="images/character/toad.png" ></li>
+                    <li class="flex-item"><img class="toad-picture"src="images/character/toad.png" ></li>
+                    <li class="flex-item"><img class="toad-picture"src="images/character/toad.png" ></li>
+                    <li class="flex-item"><img class="toad-picture"src="images/character/toad.png" ></li>
+                    <li class="flex-item"><img class="toad-picture"src="images/character/toad.png" ></li>
+
+
+                </ul>
+                
+
+                <form class ="link-area" action="#">
+                    <div class ="wrapper">
+                       
+                        <div class="button-copy button-start">
+                            <a href="#" title="Button push blue/green" class="button btnPush btnCopy" onclick=GetURL()>Copy link</a>
+                            <a href="game.html" title="Button push blue/green" class="button btnPush btnStart">Start</a>
+                            <input id ="para" style ="display :none ;" >
+
+                        </div>
+                    </div>
+                </form>  
+            </div>
+
+        <a class="arrow arrow-left" title="Previous" href="start.html"></a>
+   
+       
+    
+    </body>
+    <script src="app.js"></script>
+
+    
+
+</html>
+    
+    
